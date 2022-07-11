@@ -1,0 +1,120 @@
+.contentfaq {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: left;
+  margin-bottom: 92px;
+  &__infomations {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      margin-top: 134px;
+      font-family: "Josefin Sans";
+      font-size: 36px;
+      line-height: 30px;
+      text-align: center;
+      color: #1d3178;
+    }
+    &__all {
+      display: flex;
+      flex-direction: column;
+      margin-top: 64px;
+      gap:64px;
+      &__infomation {
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        &__title {
+          width: 395px;
+          height: 30px;
+          font-family: "Josefin Sans";
+          font-size: 17px;
+          line-height: 30px;
+          /* identical to box height, or 176% */
+
+          color: #1d3178;
+        }
+        &__description {
+          width: 499px;
+          height: 45px;
+          font-family: "Josefin Sans";
+          font-size: 16px;
+          line-height: 30px;
+          /* or 188% */
+
+          color: #a1abcc;
+        }
+      }
+    }
+  }
+  &__question {
+    width: 566px;
+    height: 738px;
+    background: #f8f8fd;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 123px;
+    margin-left: 106px;
+    h1 {
+      position: absolute;
+      top: 66px;
+      font-family: "Josefin Sans";
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      width: 175px;
+      margin-left: 46px;
+      color: #1d3178;
+    }
+    input {
+      margin-left: 46px;
+      width: 445px;
+      background: #ffffff;
+      border: 1px solid #cdcedc;
+      border-radius: 5px;
+      //   vertical-align: top;
+    }
+    input[type="text"]::placeholder {
+      text-align: left;
+    }
+    #input__name {
+      position: absolute;
+      height: 50px;
+      top: 30%;
+    }
+    #input__subject {
+      position: absolute;
+      height: 50px;
+      top: 40%;
+    }
+    #input__mess {
+      position: absolute;
+      height: 197px;
+      top: 50%;
+      margin-left: 46px;
+      width: 445px;
+      background: #ffffff;
+      border: 1px solid #cdcedc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 156px;
+      height: 48px;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      line-height: 30px;
+      margin-left: 46px;
+      /* identical to box height, or 188% */
+
+      color: #ffffff;
+      background: #fb2e86;
+      border-radius: 3px;
+      border: none;
+      outline: none;
+      position: absolute;
+      bottom: 10%;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.RegisterAccountContact{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(248, 248, 253, 1);
+    height: 1000px;
+    &__contact{
+        &__cnp{
+            padding-top: 90px;
+            display: flex;
+        &__cof{
+            margin-left: 40px;
+            font-family: 'Josefin Sans';
+            font-size: 18px;
+            line-height: 21px;
+            color: #1D3178;
+            font-weight: 700;
+        }
+        &__alr{
+            margin-left: 300px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.01em;
+            color: #C1C8E1;
+            }
+        &__login{
+            margin-left: 5px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.01em;
+            color: #C1C8E1;
+            }
+        }
+        &__coi{
+            width: 85%;
+            margin-left: 40px;
+        }
+        &__cheb{
+            display: flex;
+            margin-left: 40px;
+            margin-top: 30px;
+            &__k{
+                padding-left:10px;
+                color: rgba(138, 145, 171, 1);
+                margin-top: 2px;
+            }
+        }
+    }
+    &__shipping{
+        &__n{
+            font-family: 'Josefin Sans';
+            font-size: 18px;
+            line-height: 21px;
+            color: #1D3178;
+            font-weight: 700;
+            margin-left: 40px;
+            margin-top: 100px;
+        }
+        &__flname{
+            display: flex;
+            margin-top: 20px;
+            &__fname{
+                margin-left: 40px;
+                width: 300px;
+            }
+            &__lname{
+                width: 295px;
+                margin-left: 50px;
+            }
+        }
+        &__address{
+            width: 85%;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        &__appaetnentment{
+            width: 85%;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        &__city{
+            width: 85%;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        &__bp{
+            display: flex;
+            margin-top: 20px;
+            &__ba{
+                width: 300px;
+                margin-left: 40px;
+            }
+            &__pc{
+                width: 295px;
+                margin-left: 50px;
+            }
+        }
+    }
+    &__btn{
+        background: #FB2E86;
+        border-radius: 2px;
+        border: #FB2E86;
+        width: 182px;
+        height: 44px;
+        color: white;
+        font-weight: 500;
+        margin-left: 40px;
+        margin-top: 130px;
+    }
+}

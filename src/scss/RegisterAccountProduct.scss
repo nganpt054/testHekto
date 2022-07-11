@@ -1,0 +1,46 @@
+.RegisterAccountProduct{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(199, 206, 228, 1);
+    width: 80%;
+    &__img{ 
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    &__l{
+        margin-left: 15px;
+        padding-top: 10px;
+        &__name{
+            font-family: 'Josefin Sans';
+            font-size: 14px;
+            line-height: 16px;
+            color: #000000;
+            font-weight: 700;
+            padding-left: 2px;
+        }
+        &__color{
+            font-family: 'Josefin Sans';
+            font-size: 12px;
+            line-height: 14px;
+            color: #A1A8C1;
+            font-weight: 400;
+            padding: 2px;
+        }
+        &__size{
+            font-family: 'Josefin Sans';
+            font-size: 14px;
+            line-height: 16px;
+            color: #A1A8C1;
+            padding: 2px;
+        }
+    }
+    &__r{
+        font-family: 'Josefin Sans';
+        font-size: 14px;
+        line-height: 16px;
+        color: #15245E;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-left: 60px;
+    }
+}

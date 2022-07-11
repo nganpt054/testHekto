@@ -1,0 +1,32 @@
+.navigation {
+  height: 286px;
+  background: #f6f5ff;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  &__title {
+    color: #101750;
+    font-family: "Josefin Sans";
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+  &__shop {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    a {
+      color: #000000;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      margin-right: 13px;
+    }
+    a.shopgrid {
+      color: #fb2e86;
+    }
+  }
+}

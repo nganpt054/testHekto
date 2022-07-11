@@ -1,0 +1,122 @@
+.contentShop__playwood {
+  margin-top: 120px;
+  width: 100%;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  &__chair {
+    width: 100%;
+    max-width: 1170px;
+    max-height: 509px;
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 0px 25px 10px #f6f4fd;
+    border-radius: 2px;
+    gap: 25px;
+    &__left {
+      display: flex;
+      row-gap: 11px;
+      flex-direction: column;
+      margin: 13px 0 9px 13px;
+      img {
+        border-radius: 3px;
+      }
+    }
+    &__center {
+      margin-top: 13px;
+      img {
+        border-radius: 3px;
+      }
+    }
+    &__right {
+      width: 100%;
+      max-width: 549px;
+      h1 {
+        color: #0d134e;
+        font-family: "Josefin Sans";
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 74px;
+        line-height: 1.5;
+      }
+      &__img {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        span {
+          color: #151875;
+          font-family: "Josefin Sans";
+          font-size: 14px;
+          font-weight: 600;
+        }
+        img {
+          width: 10px;
+          height: 10px;
+        }
+      }
+      &__price {
+        display: flex;
+        gap: 18px;
+        margin-top: 15px;
+        p.price {
+          font-family: "Josefin Sans";
+          font-size: 16px;
+          font-weight: 500;
+          color: #151875;
+        }
+        p.sale {
+          text-decoration-line: line-through;
+          color: #fb2e86;
+          font-weight: 500;
+        }
+      }
+      p {
+        color: #0d134e;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 600;
+        margin: 12px 0;
+      }
+      span {
+        color: #a9acc6;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+      &__button {
+        display: flex;
+        gap: 27px;
+        margin: 34px 0px 17px 70px;
+        button {
+          background: white;
+          border: none;
+          color: #151875;
+          font-family: "Josefin Sans";
+          font-size: 16px;
+        }
+      }
+      &__share {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        &__fb {
+          width: 16px;
+          height: 16px;
+          background: #151875;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+        }
+        &__instagram {
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background: #fb2e86;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

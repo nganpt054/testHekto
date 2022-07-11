@@ -1,0 +1,110 @@
+.content__shopex {
+  &__offer {
+    margin-top: 62px;
+    text-align: center;
+    margin-bottom: 55px;
+    h1 {
+      color: #151875;
+      font-family: "Josefin Sans";
+      font-size: 42px;
+    }
+  }
+  &__support {
+    display: grid;
+    grid-column-gap: 28px;
+    grid-template-columns: 1080px;
+    justify-content: center;
+    align-items: center;
+    p {
+      color: rgba(26, 11, 91, 0.3);
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    h2 {
+      color: #151875;
+      font-family: "Josefin Sans";
+      font-size: 22px;
+      line-height: 2.5;
+    }
+
+    &__one {
+      height: 320px;
+      box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+      flex-direction: column;
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and(max-width:495px) {
+  .content__shopex {
+    margin-bottom: 90px;
+  }
+  .content__shopex__support {
+    display: grid;
+    grid-column-gap: 4%;
+    grid-template-columns: 90%;
+    h2 {
+      font-size: 17px;
+      line-height: 2.5;
+    }
+    p {
+      font-size: 10px;
+      line-height: 1.5;
+    }
+    &__one {
+      height: 235px;
+    }
+  }
+  #shopex__mobile {
+    display: block;
+  }
+}
+
+@media only screen and(min-width:495px) and(max-width:768px) {
+  #shopex__mobile {
+    display: block;
+  }
+  .content__shopex {
+    margin-bottom: 90px;
+  }
+  .content__shopex__support {
+    display: grid;
+    grid-column-gap: 4%;
+    grid-template-columns: 90%;
+    #shopex__pc {
+      display: none;
+    }
+    h2 {
+      font-size: 20px;
+      line-height: 2.5;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    &__one {
+      height: 235px;
+    }
+  }
+  .content__shopex__support__one {
+    height: 320px;
+  }
+}
+@media only screen and(min-width:768px) and(max-width:1275px) {
+  .content__shopex__support {
+    grid-column-gap: 2%;
+    grid-template-columns: 95%;
+    #shopex__mobile {
+      display: none;
+    }
+  }
+}

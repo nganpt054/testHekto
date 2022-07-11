@@ -1,0 +1,61 @@
+.contentShop__description {
+  height: 620px;
+  width: 100%;
+  background: #f9f8fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__details {
+    max-width: 1153px;
+    &__menu {
+      display: flex;
+      gap: 65px;
+      h1 {
+        color: #151875;
+        font-family: "Josefin Sans";
+        font-size: 24px;
+        margin-bottom: 65px;
+      }
+    }
+    &__varius {
+      h2 {
+        color: #151875;
+        font-family: "Josefin Sans";
+        font-size: 22px;
+        line-height: 2;
+      }
+      p {
+        color: #a9acc6;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+    &__moredetails {
+      h2 {
+        color: #151875;
+        font-family: "Josefin Sans";
+        font-size: 22px;
+        line-height: 2;
+        &__img {
+          display: flex;
+          align-items: center;
+        }
+      }
+      img {
+        margin-right: 10px;
+      }
+      &__img {
+        p {
+          color: #a9acc6;
+          font-family: "Josefin Sans";
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.contentShop__description__details__moredetails__img {
+  display: flex;
+  align-items: center;
+}

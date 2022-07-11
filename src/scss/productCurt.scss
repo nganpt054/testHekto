@@ -1,0 +1,228 @@
+.ProductCurt{
+    width: 100%;
+    // height: 286px;
+    margin: 0 auto;
+    max-width: 1920px;
+    display: flex;
+    flex-wrap: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 80px;
+    &__left{
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-left: 16.66667%;
+        font-weight: 700;
+        &__up{
+            font-family: 'Josefin Sans';
+            font-size: 20px;
+            line-height: 23px;
+            color: #1D3178;
+            &__prd{
+                // max-width: 200px;
+                max-width: 300px;
+                width: 100%;
+            }
+            &__pri{
+                margin-left: 260px;
+            }
+            &__qtt{
+                margin-left: 100px;
+            }
+            &__tol{
+                margin-left: 120px;
+            }
+        }
+        &__bwn{
+            margin-top: 10px;
+        }
+        &__down{
+            font-family: 'Josefin Sans';
+            font-size: 16px;
+
+            margin-top: 50px;
+            padding-bottom: 100px;
+            &__upd{
+                color: white;
+                background-color: rgba(251, 46, 134, 1);
+                border-radius: 2px;
+                border: 0px;
+                width: 134px;
+                height: 39px;
+            }
+            &__cle{
+                color: white;
+                background-color: rgba(251, 46, 134, 1);
+                border-radius: 2px;
+                border: 0px;
+                margin-left: 450px;
+                width: 134px;
+                height: 39px;
+            }
+        }
+    }
+    &__right{
+        flex: 0 0 25%;
+        max-width: 25%;
+        margin-left: 20px;
+        &__cartTT{
+            text-align: center;
+            &__na{
+                font-weight: 700;
+                font-family: 'Josefin Sans';
+                font-size: 20px;
+                line-height: 23px;
+                color: #1D3178;
+            }
+            &__btn{
+                text-align: left;
+                max-width: 370px;
+                margin: auto;
+                width: 100%;
+                height: 290px;
+                margin-top: 40px;
+                background-color:  rgba(244, 244, 252, 1);
+                &__sub{
+                    display: flex;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    color:  rgba(29, 49, 120, 1);
+                    padding-top: 34px;
+                    border-bottom: 2px solid rgb(225, 225, 228);
+                    width: 310px;
+                    margin-left: 23px;
+                    &__i{
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        padding-bottom: 13px;
+                    }
+                    &__p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-left: 170px;
+                    }
+                }
+                &__tot{
+                    display: flex;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    color:  rgba(29, 49, 120, 1);
+                    padding-top: 34px;
+                    border-bottom: 2px solid rgb(225, 225, 228);
+                    width: 310px;
+                    margin-left: 23px;
+                    &__i{
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        padding-bottom: 13px;
+                    }
+                    &__p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-left: 200px;
+                    }
+                }
+                &__ckb{
+                    display: flex;
+                    margin-top: 30px;
+                    margin-left: 23px;
+                    &__p{
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #8A91AB;
+                        margin-top: 5px;
+                        margin-left: 10px;
+                    }
+                }
+                &__btcl{
+                    text-align: center;
+                    margin-top: 30px;
+                    &__bt{
+                        width: 312px;
+                        height: 40px;
+                        background: #19D16F;
+                        border-radius: 3px;
+                        border: #19D16F;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color:#FFFFFF;
+                    }
+                }
+            }
+        }
+        &__calS{
+            margin-top: 50px;
+            text-align: center;
+            &__name{
+                font-family: 'Josefin Sans';
+                font-size: 20px;
+                line-height: 23px;
+                color: #1D3178;
+                font-weight: 700;
+            }
+            &__btn{
+                text-align: left;
+                max-width: 370px;
+                margin: auto;
+                width: 100%;
+                height: 290px;
+                margin-top: 40px;
+                background-color:  rgba(244, 244, 252, 1);
+                &__na{
+                    font-family: 'Josefin Sans';
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #C5CBE3;
+                    padding-top: 44px;
+                    margin-left: 32px;
+                    border-bottom: 2px solid rgb(225, 225, 228);
+                    width: 300px;
+                    line-height: 30px;
+                }
+                &__ar{
+                    font-family: 'Josefin Sans';
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #C5CBE3;
+                    margin-left: 32px;
+                    border-bottom: 2px solid rgb(225, 225, 228);
+                    width: 300px;
+                    line-height: 30px;
+                    margin-top: 30px;
+                }
+                &__pc{
+                    font-family: 'Josefin Sans';
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #C5CBE3;
+                    margin-left: 32px;
+                    border-bottom: 2px solid rgb(225, 225, 228);
+                    width: 300px;
+                    line-height: 30px;
+                    margin-top: 30px;
+                }
+                &__btcl{
+                    width: 180px;
+                    height: 40px;
+                    background: #FB2E86;
+                    border-radius: 3px;
+                    border: #FB2E86;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    margin-top: 25px;
+                    margin-left: 32px;
+                    color:#FFFFFF;
+                }
+            }
+        }
+    }
+}

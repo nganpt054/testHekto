@@ -1,0 +1,18 @@
+.contentShop {
+  margin-top: 100px;
+  width: 100%;
+}
+
+
+.contentShop__playwood__chair__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:375px;
+  height: 487px;
+  img{
+    max-width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+}

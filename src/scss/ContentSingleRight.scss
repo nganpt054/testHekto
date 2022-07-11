@@ -1,0 +1,240 @@
+.contentsingle__right{
+
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 28px;
+        row-gap: 37px;
+        height: auto;
+        &__search {
+          display: flex;
+          flex-direction: column;
+          &__title {
+            width: 69px;
+            height: 22px;
+            font-family: "Josefin Sans";
+            font-size: 22px;
+            line-height: 26px;
+            margin-bottom: 27px;
+            /* Text */
+    
+            color: #151875;
+          }
+        }
+        &__categories {
+          &__title {
+            width: 110px;
+            height: 22px;
+            font-family: "Josefin Sans";
+            font-size: 22px;
+            line-height: 26px;
+            color: #151875;
+            margin-bottom: 37px;
+          }
+          &__content {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: left;
+            align-items: center;
+            &__option {
+              font-family: "Josefin Sans";
+              font-size: 14px;
+              line-height: 30px;
+              color: #3f509e;
+              background: #ffffff;
+              border-radius: 3px;
+              width: 122px;
+              height: 30px;
+            }
+            &__optionaction {
+              font-family: "Josefin Sans";
+              font-size: 14px;
+              line-height: 30px;
+    
+              color: #ffffff;
+              background: #f939bf;
+              border-radius: 3px;
+              width: 122px;
+              height: 30px;
+            }
+          }
+        }
+        &__recentpost {
+          display: flex;
+          flex-direction: column;
+          row-gap: 22px;
+          &__title {
+            width: 120px;
+            height: 22px;
+            font-family: "Josefin Sans";
+            font-size: 22px;
+            line-height: 26px;
+            margin-bottom: 37px;
+    
+            /* Text */
+    
+            color: #151875;
+          }
+          &__content {
+            &__post {
+              display: flex;
+              gap: 6.69px;
+              &__image {
+              }
+              &__text {
+                p {
+                  width: 174px;
+                  height: 14px;
+                  font-family: "Josefin Sans";
+                  font-size: 14px;
+                  line-height: 16px;
+                  color: #3f509e;
+                }
+                span {
+                  width: 64px;
+                  height: 13px;
+                  font-family: "Lato";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 11px;
+                  line-height: 13px;
+                  color: #8a8fb9;
+                }
+              }
+            }
+          }
+        }
+        &__saleproduct {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          &__title {
+            width: 129px;
+            height: 22px;
+            font-family: "Josefin Sans";
+            font-size: 22px;
+            line-height: 26px;
+            color: #151875;
+            margin-bottom: 37px;
+          }
+          &__content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            &__product {
+              display: flex;
+              gap: 6px;
+              &__image {
+              }
+              &__text {
+                p {
+                  width: 174px;
+                  height: 14px;
+                  font-family: "Josefin Sans";
+                  font-size: 14px;
+                  line-height: 16px;
+                  color: #3f509e;
+                }
+                span {
+                  width: 64px;
+                  height: 13px;
+                  font-family: "Lato";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 11px;
+                  line-height: 13px;
+                  color: #8a8fb9;
+                }
+              }
+            }
+          }
+        }
+        &__offerproduct {
+          &__title {
+            width: 140px;
+            height: 22px;
+            font-family: "Josefin Sans";
+            font-size: 22px;
+            line-height: 26px;
+            color: #151875;
+            margin-bottom: 37px;
+          }
+          &__content {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            column-gap: 15px;
+    
+            &__product {
+              &__text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                p {
+                  width: 94px;
+                  height: 17px;
+                  font-family: "Lato";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 14px;
+                  line-height: 17px;
+                  text-align: center;
+                  color: #151875;
+                }
+                span {
+                  width: 86px;
+                  height: 14px;
+                  font-family: "Lato";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 12px;
+                  line-height: 14px;
+                  text-align: center;
+                  color: #8a8fb9;
+                }
+              }
+            }
+          }
+        }
+        &__follow {
+          &__title {
+            font-family: "Josefin Sans";
+            font-size: 22px;
+            line-height: 26px;
+            color: #151875;
+          }
+          &__content {
+            display: flex;
+            column-gap: 20px;
+          }
+        }
+        &__tags {
+          &__title {
+            width: 47px;
+            height: 22px;
+            font-family: "Josefin Sans";
+            font-size: 22px;
+            line-height: 26px;
+            color: #151875;
+          }
+          &__content {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 41px;
+            row-gap: 12px;
+            a {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 26px;
+              text-decoration-line: underline;
+              color: #151875;
+            }
+          }
+        }
+
+}

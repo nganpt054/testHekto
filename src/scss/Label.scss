@@ -1,0 +1,29 @@
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    font-family: 'Josefin Sans';
+    color:rgba(193, 200, 225, 1);
+
+}
+
+.form__field {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(199, 206, 228, 1);
+    outline: 0;
+    color:rgb(38, 29, 82);
+    padding: 7px 3px;
+    background: none;
+    .placeholder{
+        color: rgba(199, 206, 228, 1);
+        font-size: 10px;
+    }
+}
+.field{
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 32px;
+    width: 80%;
+    padding-top: 30px;
+}

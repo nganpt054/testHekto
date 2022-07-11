@@ -1,0 +1,235 @@
+.footer {
+  width: 100%;
+  height: auto;
+  max-width: 1920px;
+  background: #eeeffb;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  &__top {
+    height: 479px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 94px;
+    gap: 72px;
+    p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #8a8fb9;
+      line-height: 2.7;
+    }
+    h1 {
+      color: #000000;
+      font-family: "Josefin Sans";
+      font-size: 38px;
+      line-height: 3;
+    }
+    &__logo {
+      &__search {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 377px;
+        box-sizing: border-box;
+        &__email {
+          display: flex;
+          display: flex;
+          flex: 1 1;
+          align-items: center;
+          border: 1px solid #ffffff;
+          opacity: 0.45;
+          input {
+            border: none;
+            width: 100%;
+            outline: nôn;
+            height: 44px;
+          }
+          ::placeholder {
+            color: #8a8fb9;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+          }
+          button {
+            width: 135px;
+            height: 39px;
+            border: none;
+            background: #fb2e86;
+            border-radius: 3px;
+            color: #eeeffb;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    &__categories {
+      h1 {
+        color: #000000;
+        font-family: "Josefin Sans";
+        font-size: 22px;
+      }
+    }
+    &__customer {
+      h1 {
+        color: #000000;
+        font-family: "Josefin Sans";
+        font-size: 22px;
+      }
+    }
+    &__pages {
+      h1 {
+        color: #000000;
+        font-family: "Josefin Sans";
+        font-size: 22px;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    background: #e7e4f8;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    width: 100%;
+    &__all {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      width: 52%;
+      &__content {
+        p {
+          color: #9da0ae;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+      &__img {
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media only screen and(max-width:495px) {
+  .footer {
+    &__top {
+      padding-top: 30px;
+      height: 350px;
+      flex-direction: column;
+      justify-content: normal;
+      height: auto;
+      gap: 30px;
+      margin: 0 0 0 25px;
+      h1 {
+        line-height: 2.5;
+      }
+      &__logo {
+        &__search {
+          &__email {
+            input {
+              height: 37px;
+              outline: none;
+              padding: 0 10px;
+              //
+            }
+            &__button {
+              button {
+                width: 110px;
+                height: 38px;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &__bottom {
+      height: 48px;
+      &__all {
+        width: 90%;
+        &__content {
+          font-size: 13px;
+          p {
+            font-size: 13px;
+          }
+        }
+        &__img {
+          display: flex;
+          gap: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and(min-width:495px) and(max-width:767px) {
+  .footer {
+    height: auto;
+    &__top {
+      padding-top: 30px;
+      gap: 20px;
+      height: auto;
+      margin: 0 10px;
+      h1 {
+        line-height: 2.5;
+      }
+      &__logo {
+        &__search {
+          &__email {
+            input {
+              height: 37px;
+              outline: none;
+              padding: 0 10px;
+              //
+            }
+            &__button {
+              button {
+                width: 110px;
+                height: 38px;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &__bottom {
+      height: 48px;
+      &__all {
+        width: 65%;
+        &__content {
+          font-size: 13px;
+          p {
+            font-size: 13px;
+          }
+        }
+        &__img {
+          display: flex;
+          gap: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and(min-width:768px) and(max-width:1275px) {
+  .footer__top {
+    width: 100%;
+    gap: 35px;
+    padding-top: 2%;
+    &__logo {
+      margin: 0 0 0 10px;
+    }
+    h1 {
+      line-height: 1.5;
+    }
+  }
+}
